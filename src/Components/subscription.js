@@ -39,6 +39,7 @@ class Subscription extends React.Component {
     render() {
 
     const  usethedelete = (user) => {
+      //new chackout
       const url2 = "http://senshost.com:8002/api/Subscription";
      // console.log(user.name)
       fetch(`${url2}/${user.id}`, {
